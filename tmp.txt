@@ -1,0 +1,5 @@
+Host ml-dev
+  User ubuntu
+  HostName 172.31.72.232
+  ProxyCommand C:\Windows\System32\OpenSSH\ssh.exe -Y ec2-user@13.125.30.204 -W %h:%p -i C:\Users\mk43.kim\Downloads\dev-bastionhost.pem
+  IdentityFile C:\Users\mk43.kim\Downloads\takenote_dev.pem
